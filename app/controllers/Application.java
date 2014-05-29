@@ -11,9 +11,12 @@ public class Application extends Controller {
     	
     	   System.out.print("aliu");
     	   
-    	   
-    	   
-    	   
+    	   System.out.print("aliu");
+    	 
+    	   System.out.print("aliu"); 
+    	   System.out.print("aliu");
+    	   System.out.print("aliu");
+    	   System.out.print("aliu");
     	   
         return ok(index.render("Your new application is ready."));
      
