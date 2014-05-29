@@ -9,7 +9,9 @@ public class Application extends Controller {
 
     public static Result index() {
     	   System.out.print("aliu"); 
-         return ok(index.render("Sajjad Ali."));
+         
+         return ok(index.render("Sajjad Ali siddiqui."));
+         
      
     }
 
