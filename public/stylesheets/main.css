@@ -1714,12 +1714,29 @@ span.color-red {
   box-shadow: 0 -1px 12px rgba(0,0,0,0.4);
   color: 0 -1px 12px rgba(0,0,0,0.4);
 }
+/* .footer .container {
+	background: inherit;
+}
+ */
+
+.footer>.container>.row:first-child{
+	height: 200px;
+	background: inherit;
+}
+.footer>.container>.row:last-child{
+	width: inherit;
+	height: 40px;
+	background: inherit;
+}
+
+
 .footer h3 {
   color: #E4E4E4;
   font-size: 1.3em;
   border-bottom: 1px dotted #7C7C7C;
 }
 .footer ul {
+	
   padding: 0;
 }
 .footer-navigate-section li {
