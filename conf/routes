@@ -3,8 +3,8 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index()
-#GET     /                           controllers.Application1.index
+#GET     /                           controllers.Application.index()
+GET     /                           controllers.Application1.index
 GET     /host/:id                   controllers.Application1.host( id: String )
 GET     /stats/:id                  controllers.Application1.stats( id: String )
 
