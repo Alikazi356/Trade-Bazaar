@@ -7,14 +7,24 @@
         var charts = []  	
 	    charts[ '@host.id' ] = new Highcharts.Chart({    	            
 	        chart: {
-	            renderTo: 'chart',
+            renderTo: 'chart',
 	            defaultSeriesType: 'spline'            
-	        },           
+	        },  
+	        title: {
+	            text: 'Potato Price'
+	        },
+	      
 	        xAxis: {
                 type: 'datetime'
             },   
+            yAxis: {
+                title: {
+    	            text: 'Price($)'
+    	        },
+               // type: 'datetime'
+            }, 
 	        series: [{
-	            name: "CPU",
+	            name: "Time",
 	            data: []
 	           }
 	        ]

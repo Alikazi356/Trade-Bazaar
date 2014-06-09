@@ -14,7 +14,7 @@ import play.api.libs.concurrent.Execution.Implicits.defaultContext
 object Application1 extends Controller {  
 
   def index = Action {
-    Ok( views.html.dashboard( "Dashboard", Hosts.hosts() ) )
+    Ok( views.html.index( "Dashboard", Hosts.hosts() ) )
   }
   
   def host( id: String ) = Action { implicit request =>
